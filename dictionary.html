@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTIONARY</title>
+    <link rel="stylesheet" href="dictionary.css">
+</head>
+<body>
+    <div class="dictionary">
+        <h1>Dictionary</h1>
+        <form class="searchForm">
+          <input type="text" class="txtBox" placeholder="Enter a word" required />
+          <button type="submit" class="submit-btn">Search</button>
+        </form>
+        <p class="loading-message"></p>
+        <div class="search-result">
+          <p><strong>Word:</strong> <span class="search-word"></span></p>
+          <p><strong>Definition:</strong> <span class="description"></span></p>
+          <p><strong>Synonyms:</strong> <span class="synonyms"></span></p>
+          <p><strong>Antonyms:</strong> <span class="antonyms"></span></p>
+        </div>
+        <h2>Recent Searches</h2>
+        <ul class="recent-searches"></ul>
+      </div>
+      
+  
+</body>
+
+<script src="dictionary.js"></script>
+</html>
