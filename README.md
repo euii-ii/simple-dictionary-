@@ -32,7 +32,7 @@ Installation 🚀
 Clone this repository to your local machine:
 bash
 Copy code
-git clone https://github.com/your-username/simple-dictionary.git
+git clone https://github.com/euii-ii/simple-dictionary-.git
 
 Open the project folder:
 bash
