@@ -39,6 +39,7 @@ bash
 Open index.html in your browser to run the application.
 
 License 📝
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
